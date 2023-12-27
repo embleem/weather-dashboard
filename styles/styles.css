@@ -4,24 +4,33 @@
   
 }
 
+#mainTitle {
+background: linear-gradient(to right, #1b9fb1, #001d3d);
+color: white;
+text-align: center
+}
+
 body {
-  
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
   
 }
 
-h3{
+h1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h3 {
   font-weight: bold;
 }
 
 .forecast{
   
-  font-size: 0.9em;
+  font-size: 15px;
 }
 
 span{
-  font-size: 1em;
+  font-size: 15px;
 }
 
 li:hover{
