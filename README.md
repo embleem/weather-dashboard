@@ -15,7 +15,7 @@ File Structure:
 
 Type the name of the city you want to see the weather for into the search box. Click search to see results.
 
-Deployed Application:
+Deployed Application: https://embleem.github.io/weather-dashboard/
 
 Weather Dashboard:
 ![weatherDash](img/frontPage.png)

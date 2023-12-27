@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weather Dashboard</title>
-    <!--Bootstrap CSS CDN-->
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <!-- Font Awesome CSS Icons -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -19,12 +19,12 @@
   <body>
 
     <!--Title Container-->
-    <section class="mt-4 p-5 bg-primary text-white rounded" id="mainTitle">
+    <header class="mt-4 p-5 bg-primary text-white rounded" id="mainTitle">
       <h1><strong>Weather Dashboard</strong></h1>
-    </section>
+    </header>
 
     <!--Row for searching a city-->
-    <section class="container">
+    <section class="container" id="searchSection">
       <section class="row">
         <div class="col-sm-4 bg-light">
           <!--Search for a city text heading-->
@@ -59,11 +59,11 @@
           </div>
 
           <!--Rows with weather information-->
-          <section class="col-sm-12" id="future-weather">
+          <section class="col-sm-12" id="forecast">
             <h3>5-Day Forecast:</h3>
-            <div class="row text-light">
+            <div class="row text-light" id="weatherRow">
               <div
-                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded"
+                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" id="box0"
               >
                 <p id="fDate0"></p>
                 <p id="fImg0"></p>
@@ -71,7 +71,7 @@
                 <p>Humidity:<span id="fHumidity0"></span></p>
               </div>
               <div
-                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded"
+                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" id="box1"
               >
                 <p id="fDate1"></p>
                 <p id="fImg1"></p>
@@ -79,7 +79,7 @@
                 <p>Humidity:<span id="fHumidity1"></span></p>
               </div>
               <div
-                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded"
+                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" id="box2"
               >
                 <p id="fDate2"></p>
                 <p id="fImg2"></p>
@@ -87,7 +87,7 @@
                 <p>Humidity:<span id="fHumidity2"></span></p>
               </div>
               <div
-                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded"
+                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" id="box3"
               >
                 <p id="fDate3"></p>
                 <p id="fImg3"></p>
@@ -95,7 +95,7 @@
                 <p>Humidity:<span id="fHumidity3"></span></p>
               </div>
               <div
-                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded"
+                class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" id="box4"
               >
                 <p id="fDate4"></p>
                 <p id="fImg4"></p>
