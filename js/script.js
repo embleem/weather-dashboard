@@ -47,7 +47,7 @@ function currentWeather(city) {
     var weathericon = response.weather[0].icon;
     var iconurl =
       "https://openweathermap.org/img/wn/" + weathericon + "@2x.png";
-    // The date format method is taken from the  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+    // Date format
     var date = new Date(response.dt * 1000).toLocaleDateString();
     //parse the response for name of city and concanatig the date and icon.
     $(currentCity).html(
